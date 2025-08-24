@@ -56,7 +56,7 @@ function App() {
           <input
             type="text"
             placeholder="Enter city..."
-            className="flex-1 px-[13px] py-2 rounded-l-2xl outline-none text-black"
+            className="flex-1 px-[8px] py-2 rounded-l-2xl outline-none text-black"
             value={city}
             onChange={(e) => setCity(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
