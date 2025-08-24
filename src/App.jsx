@@ -52,7 +52,7 @@ function App() {
         <h1 className="text-3xl font-bold mb-6 text-white drop-shadow-md">Weather</h1>
 
         {/*-------------------Search-------------------*/}
-        <div className="flex mb-6">
+        <div className="flex mb-6 m-3">
           <input
             type="text"
             placeholder="Enter city..."
@@ -62,7 +62,7 @@ function App() {
             onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
           />
           <button
-            className="px-3 py-2 bg-blue-600 text-white rounded-r-2xl hover:bg-blue-700"
+            className="px-4 py-2 bg-blue-600 text-white rounded-r-2xl hover:bg-blue-700"
             onClick={fetchWeather}
           >
             Search
