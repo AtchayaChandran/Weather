@@ -48,7 +48,7 @@ function App() {
       className="min-h-screen flex items-center justify-center bg-cover bg-center p-3 transition-all duration-700"
       style={{ backgroundImage: `url(${getBackground()})` }}
     >
-      <div className="bg-black/30 backdrop-blur-xl rounded-3xl p-8 w-full max-w-md shadow-2xl text-center">
+      <div className="bg-black/25 backdrop-blur-xl rounded-3xl p-8 w-full max-w-md shadow-2xl text-center">
         <h1 className="text-3xl font-bold mb-6 text-white drop-shadow-md">Weather</h1>
 
         {/*-------------------Search-------------------*/}
