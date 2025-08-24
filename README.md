@@ -1,4 +1,4 @@
-# Dynamic Weather App 🌤️
+# Weather App 🌤️
 
 A **responsive and professional weather app** built with **React**, **Tailwind CSS**, and **OpenWeatherMap API**.  
 The app dynamically updates its **background images** and weather information according to the current weather conditions of the searched city.
