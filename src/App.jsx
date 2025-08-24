@@ -56,13 +56,13 @@ function App() {
           <input
             type="text"
             placeholder="Enter city..."
-            className="flex-1 px-[8px] py-2 rounded-l-2xl outline-none text-black"
+            className="flex-1 px-[10px] py-2 rounded-l-2xl outline-none text-black"
             value={city}
             onChange={(e) => setCity(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
           />
           <button
-            className="px-4 py-2 bg-blue-600 text-white rounded-r-2xl hover:bg-blue-700"
+            className="px-3 py-2 bg-blue-600 text-white rounded-r-2xl hover:bg-blue-700"
             onClick={fetchWeather}
           >
             Search
