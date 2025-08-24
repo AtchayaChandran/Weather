@@ -52,11 +52,11 @@ function App() {
         <h1 className="text-3xl font-bold mb-6 text-white drop-shadow-md">Weather</h1>
 
         {/*-------------------Search-------------------*/}
-        <div className="flex mb-6 m-3">
+        <div className="flex mb-6 w-full max-w-md mx-auto">
           <input
             type="text"
             placeholder="Enter city..."
-            className="flex-1 px-[10px] py-2 rounded-l-2xl outline-none text-black"
+            className="w-[200px] sm:w-[250px] md:w-[300px] lg:w-[350px] px-3 py-2 rounded-l-2xl outline-none text-black"
             value={city}
             onChange={(e) => setCity(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
@@ -68,6 +68,7 @@ function App() {
             Search
           </button>
         </div>
+
 
         {/*-------------------Loading-------------------*/}
         {loading && <p className="text-white mb-4">Loading...</p>}
